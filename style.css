@@ -1,0 +1,14 @@
+#container{
+    background-color: rgb(253, 205, 245);
+    width: 980px;
+    margin: 0px auto;
+}
+header{
+    background-color: rgb(193, 255, 191);
+}
+main{
+    background-color: rgb(169, 232, 252);
+}
+footer{
+    background-color: rgb(193, 252, 218);
+ }
