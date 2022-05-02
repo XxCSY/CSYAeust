@@ -9,41 +9,41 @@
             background-color: #E0B853;
         }
         main{
-            background-color: #cdd8f5;
+            background-color: #3b6fff;
         }
         footer{
-            background-color:#9bdcff;
+            background-color:#00eb5a;
         }
         h1{
-            color: brown;
-            background-color: #a1ecff;
+            color: rgb(255, 38, 0);
+            background-color: #60f7ab;
             margin: 40px auto;
             padding: 30px;
-            border: 5px solid #a8bef8;
+            border: 5px solid #fffb2a;
             width: 300px;
             font-size: 300%;
             text-align: center;
             line-height: 1;
         }
         a{
-            color: #a1b3fd;
+            color: #ff0000;
         }
         a:hover{
-            color: #e64da6;
+            color: #0feec9;
             text-decoration: none;
         }
         h2{
             padding: 10px;
             margin-bottom: 30px;
-            border: 1px dotted #820094;
-            border-left: 10px solid #D053E0;
-            color:#E0975F;
+            border: 1px dotted #e4241d;
+            border-left: 10px solid #6d12ff;
+            color:#08af6f;
         }
         #contents{
             margin: 40px;
             padding: 40px 80px;
-            border: 1px solid #8E86FA;
-            background-color: #9CF3FA;
+            border: 1px solid #3572f7;
+            background-color: #b67ef7;
         }
         .more{
             text-align: right;
@@ -52,7 +52,7 @@
             padding: 10px;
             margin-bottom: 30px;
             border-left: 10px solid #D053E0;
-            color:#E0975F;
+            color:#ffffff;
         }
         .h-sub span{
             font-weight: normal;
