@@ -46,7 +46,7 @@ table th:first-child {
 
 table td,
 th {
-    background-color: rgb(238, 217, 255);
+    background-color: rgb(250, 255, 224);
     color: rgb(0, 0, 0);
     font-size: 15px;
     border: 1px solid rgba(0, 0, 0, 0.8);
