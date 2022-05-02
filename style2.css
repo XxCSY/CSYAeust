@@ -7,11 +7,11 @@ body{
     background-color: rgb(246, 227, 255);
 }
 
-.container {
+#container {
     width: 980px;
     padding: 40px 20px;
     margin: 0px auto;
-    background-color: rgb(254, 222, 166);
+    background-color: rgb(237, 214, 253);
 }
 
 a {
@@ -46,7 +46,7 @@ table th:first-child {
 
 table td,
 th {
-    background-color: rgb(246, 250, 199);
+    background-color: rgb(199, 250, 243);
     color: rgb(0, 0, 0);
     font-size: 15px;
     border: 1px solid rgba(0, 0, 0, 0.8);
