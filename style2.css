@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body{
+    background-color: rgb(246, 227, 255);
+}
+
 .container {
     width: 980px;
     padding: 40px 20px;
