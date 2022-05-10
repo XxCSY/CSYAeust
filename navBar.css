@@ -1,0 +1,22 @@
+nav{
+    background-color: rgb(220, 208, 255);
+    text-align: right;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+
+nav li a:hover{
+    background-color: #fff;
+    color: aqua;
+    transition:background-color 2s linear,color 2s ease-in-out ;
+}

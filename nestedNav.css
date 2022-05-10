@@ -1,70 +1,7 @@
-
-*{
-    margin: 0px;
-}
-
-body{
-    background-color: #FFCFBF;
-}
-
-#container {
-    width: 980px;
-    padding: 40px 20px;
-    margin: 0px auto;
-    background-color: #FAE1C7;
-}
-
-a {
-    color: black;
-}
-
-.img2 {
-    width: 300px;
-    margin-bottom: 20px;
-}
-
-table {
-    margin-top: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    width: 870px;
-}
-
-table caption {
-    background-color: rgb(68, 253, 244);
-    color: aliceblue;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    font-size: 24px;
-}
-
-table th {
-    width: 100px;
-}
-
-table th:first-child {
-    width: 170px;
-}
-
-table td,
-th {
-    background-color: #faeac3;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
-}
-
-table th {
-    height: 40px;
-}
-
-table td {
-    height: 60px;
-}
-
-
+/* ---------- 大小與定位 ---------- */
 #menu {
 	/* 選單大小 */
-	width:auto;
+	width:600px;
 	height:30px;
 }
 #menu ul {
@@ -163,17 +100,14 @@ table td {
 #menu {
 	font-size:1em;
 	font-family:Arial, Helvetica, sans-serif;
-    text-align: right; 
-    float:right;
 }
 /* 第一層ul背景色彩與邊框 */
 #menu ul {
-	background:rgb(220, 208, 255);
-    
+	background:#6f6f6f;
 }
 /* 第一層a字型 */
 #menu ul li a {
-	color:rgb(0, 0, 0);
+	color:#FFF;
 	text-decoration:none;
 	line-height: 30px;
 }
@@ -197,11 +131,4 @@ table td {
 /* 觸動第二層以上li時改變背景色 */
 #menu ul li ul li:hover, #menu ul li ul li a:hover {
 	background:#dfdfdf;
-}
-.post{
-    text-align: center;
-    float: left;
-}
-.xs{
-    clear: both;
 }

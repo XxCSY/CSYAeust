@@ -9,6 +9,53 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
+
+  <div id = "menu">
+    <nav>
+      <ul>
+        <li> <a href="#">首頁</a>
+          <ul>
+            <li><a href="#">首頁1</a></li>
+            <li><a href="#">首頁2</a></li>
+          </ul>
+        </li>
+        <li> <a href="#">關於我</a>
+          <ul>
+            <li> <a href="#">作品集</a>
+              <ul>
+                <li><a href="#">作品一</a></li>
+                <li><a href="#">作品二</a></li>
+                <li><a href="#">作品三</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">學歷</a>
+              <ul>
+                <li><a href="#">柑園國小</a></li>
+                <li><a href="#">柑園國中</a></li>
+                <li><a href="#">鶯歌工商</a></li>
+                <li><a href="#">亞東科大</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">證照</a>
+              <ul>
+                <li><a href="#">電軟丙級</a></li>
+                <li><a href="#">電軟乙級</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        
+        <li> <a href="https://www.aeust.edu.tw/" target="_blank">亞東科大</a>
+          
+        </li>
+        <li> <a href="#Meats">聯絡我們</a>
+          
+        </li>
+      </ul>
+    </nav>
+  </div>
+    
+
     <div id="container">
         <h1>陳詩友 <br> CHEN SHI-YOU</h1>
         <img src="./img2/p3.jpg" alt="" width="250px">
@@ -30,6 +77,7 @@
           <li><a href="./CSS03.html">CSS基礎練習-外部樣式表</a></li>
           <li><a href="./css-basic.html">CSS基礎練習-基礎樣式表</a></li>
           <li><a href="https://www.figma.com/proto/fFoOUEbMCmb5mjA1b4nAR8/%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81%E6%A8%A1%E6%9D%BF?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1">Figma-個人網頁模板</a></li>
+          <li><a href="./navBar.html">導覽列製作</a></li>
         </ul>
         
         <br>
@@ -47,14 +95,23 @@
         <h2>證照</h2>
         <br>
 
-        <p>電腦軟體應用 丙級</p>
-        <img src="./img2/p1.jpg" alt="電腦軟體應用 丙級" width="330px">
-        <br><br>
-        <p>電腦軟體應用 乙級</p>
-        <img src="./img2/p2.jpg" alt="電腦軟體應用 乙級" width="330px">
+        <div class="post">
+          <p>電腦軟體應用 丙級</p>
+          <img src="./img2/p1.jpg" alt="電腦軟體應用 丙級" width="330px">
+          
+        </div>
         
-        <br><br>
-        <h2>功課表</h2>
+        <div class="post">
+          <p>電腦軟體應用 乙級</p>
+          <img src="./img2/p2.jpg" alt="電腦軟體應用 乙級" width="330px">  
+        </div>
+        
+        
+        <div class="xs">
+          <br><br>
+          <h2>功課表</h2>
+        </div>
+        
         <br>
 
         <table width = "500px">
