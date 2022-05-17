@@ -171,7 +171,7 @@ table td {
 }
 /* 第一層ul背景色彩與邊框 */
 #menu ul {
-	background:rgb(220, 208, 255);
+	background:rgba(220, 208, 255, 0.938);
     
 }
 /* 第一層a字型 */
@@ -208,3 +208,11 @@ table td {
 .xs{
     clear: both;
 }
+.gotop{
+    font-size: 30px;
+    color: black;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;    
+}
+
