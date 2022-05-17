@@ -27,6 +27,7 @@ table {
     margin-top: 20px;
     border: 2px solid rgba(0, 0, 0, 0.8);
     width: 870px;
+	margin-left: 52px;
 }
 
 table caption {
@@ -201,10 +202,17 @@ table td {
 #menu ul li ul li:hover, #menu ul li ul li a:hover {
 	background:#dfdfdf;
 }
-.post{
+.post1{
     text-align: center;
     float: left;
+	margin-left: 50px;
 }
+.post2{
+    text-align: center;
+    float: left;
+	margin-left: 100px;
+}
+
 .xs{
     clear: both;
 }
